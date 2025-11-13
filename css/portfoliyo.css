@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* --tw-gradient-stops: */
+    /* background: rgb(59 130 246 / 0.5); */
+    color: rgb(241 245 249);
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body{
+    background: #0f172a ;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/* .nav__link:{
+    color: red;
+} */
+
+/* #about .container:hover{
+    text-decoration: underline;
+    color: red;
+} */
+
+.container{
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+p{
+    color: rgb(203 213 225 );
+}
+
+/* ===========================================================================  NAVBAR =================================================================== */
+
+.navbar{
+    position: sticky;
+    top: 0;
+    background: #0f172a;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav__list{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav__link:hover{
+    text-decoration: underline;
+}
+
+/* ====================================     header ======================================================== */
+
+header:visited .home{
+    color: red;
+}
+
+.header{
+    margin-top: 50px;
+}
+
+.header__cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__card{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+}
+
+.header__card-text{
+    color: rgb(148 163 184);
+    text-transform: uppercase;
+}
+
+.header__card-title-two, .header__card-text-two{
+    color: rgb(203 213 225 );
+}
+
+.header__card-btns{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn{
+    padding: 10px;
+    background: rgb(79 70 229);
+    border-radius: 6px;
+}
+
+.btn:nth-child(2){
+    background: none;
+    border: 0.1px solid white;
+}
+
+/* rgb(148 163 184  */
+
+.header__card:nth-child(2){
+    background: rgba(255,255,255,0.04);
+    /* backdrop-filter: blur(6px); */
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.header__card-imgs{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header__card-img{
+    width: 80px;
+    height: 107px;
+    border-radius: 36px;
+}
+
+.header__card-img-text{
+    color: rgb(203 213 225 );
+}
+
+.header__card-img-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header__card-img-item{
+    color: rgb(203 213 225 );
+}
+
+.header__card-img-title-two{
+    text-transform: uppercase;
+    color: rgb(148 163 184);
+}
+
+/* ===================================================== MAIN =================================================================================== */
+
+section{
+    margin-block: 50px;
+    padding-top: 60px;
+}
+
+#about{
+    margin-top: 50px;
+}
+
+#about .container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.skills__cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.skills__title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.skills__card{
+    padding: 100px;
+    background: rgba(255,255,255,0.04);
+    border-radius: 36px;
+    transition: .5s;
+}
+
+.skills__card:hover{
+    transform: scale(1.3);
+}
+
+.skills__card-text{
+    text-transform: uppercase;
+}
+
+.contact__title{
+    margin-bottom: 30px;
+}
+
+.contact__title{
+    text-align: center;
+}
+
+.contact__cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact__card{
+    color: rgb(203 213 225);
+    padding: 30px;
+    background: rgba(255,255,255,0.04);
+}
+
+.contact__label{
+    display: flex;
+    flex-direction: column; 
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+input, textarea{
+    background: rgb(30 41 59);
+    border: none;
+    padding: 10px;
+    padding-right: 150px;
+}
+
+textarea{
+    width: 100%;
+}
+
+.contact__form-btn{
+    margin-top: 20px;
+}
+
+/* =======================================================================  FOTERR ================================================================ */
+
+.footer{
+    text-align: center;
+    margin-bottom: 30px;
+}
