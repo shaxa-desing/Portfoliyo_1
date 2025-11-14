@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/portfoliyo.css">
     <link rel="web icon" href="imgs/shahruh-img.jpg">
-    <title>Resume | Shahruh</title>
 </head>
 <body>
     <nav class="navbar">
